@@ -1,0 +1,72 @@
+.body {
+    background: rgb(255, 255, 255);
+}
+
+.login_form {
+    margin-top: 25%;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 1px 36px 5px rgba(48, 96, 255, 0.815);
+    padding: 30px;
+}
+
+.form_btn {
+    background: blue;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    color: white;
+    width: 100%;
+}
+
+.label-txt {
+    font-size: 12px;
+}
+
+.form-control {
+    border-radius: 25px;
+}
+
+.signup_form {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 1px 36px 5px rgba(48, 96, 255, 0.815);
+    border-radius: 5px;
+}
+
+.logo {
+    height: 40%;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo1 {
+    height: 80%;
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.errmsg {
+    margin: 2px auto;
+    border-radius: 5px;
+    border: 3px solid rgb(255, 0, 0);
+    background: black;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+}
+
+.successmsg {
+    margin: 5px auto;
+    border-radius: 5px auto;
+    border: 1px solid rgb(255, 0, 0);
+    background: rgb(0, 0, 0);
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}

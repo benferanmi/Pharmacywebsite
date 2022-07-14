@@ -1,0 +1,272 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Display:wght@300&family=Dancing+Script&family=Montserrat:wght@100&family=Newsreader:wght@200;400&family=Roboto+Slab:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+header a {
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+header {
+    background-image: url(image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.logo {
+    width: 15%;
+}
+
+header.nav-item:last-child {
+    padding-right: 9.5em;
+}
+
+header.nav-item {
+    padding: 0.7em;
+}
+
+.navbar {
+    background: black;
+    position: static;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: rgb(255, 208, 0);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.container {
+    color: white;
+}
+
+.col-md-7 {
+    padding: 22vmin, 1vmin;
+    padding-top: 35vmin;
+}
+
+.col-md-7 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+.col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+.col-md-7 button {
+    border-radius: 30px;
+    font-weight: bold;
+    border-color: black;
+}
+
+/**section 1**/
+.section-1 {
+    padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+    top: 7vmin;
+    color: black;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h2 {
+    font-weight: bold;
+    padding: 0.2em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-size: 1em;
+    color: rgb(88, 86, 86);
+}
+
+/*section 2*/
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background-image: url(image/pray.JPG);
+    background-position: -24rem -29rem;
+    position: relative;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.content {
+    background: rgba(100, 5, 60, 0.7);
+    height: 100%;
+    width: 100%;
+    padding: 19vmin;
+}
+
+.content h2 {
+    font-size: 6vmin;
+    color: white;
+    font-family: cursive;
+}
+
+.content p {
+    color: white;
+    font-size: 3vmin;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    margin: 1rem;
+    border-radius: 5em;
+    box-shadow: 1px 2px 50px rgba(97, 53, 255, 0.795);
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect {
+    font-size: 1rem;
+    color: blue;
+}
+
+.numbers .rect p {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.purchase {
+    padding-top: 20vmin;
+    padding-bottom: 0.1em;
+}
+
+.card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards.div {
+    margin: 0;
+    width: 0;
+}
+
+.title  {
+    background: rgba(99, 63, 255, 0.527);
+    padding: 1.4rem 2.5rem;
+}
+
+.card-text {
+    padding: 2.5rem 3rem;
+}
+
+.card-body .purchase {
+    background: rgba(99, 63, 255, 0.527);
+    border-top-right-radius: 170px;
+
+    border-top-left-radius: 170px;
+}
+
+.card-body .purchase a {
+    color: lightblue;
+    margin-top: 50px;
+}
+
+footer {
+    background: rgba(10, 10, 10, 0.884);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+    color: white;
+}
+
+.span {
+    color: blue;
+    font-size: 3vmin;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+footer input {
+    border: none !important;
+    color: white;
+}
+
+footer input::placeholder {
+    color: white ;
+}
+
+footer.column i {
+    color: white;
+}
+.jumbotron-fluid{
+                position:fixed;
+                top:10%;
+                bottom:50%;
+                background-color:red;
+                overflow:hidden;
+                right: 16px;
+                font-size: 8px;
+                width:180px;
+                height:130px;
+            }
+            .container {
+                margin:5px auto;
+            }
+            .btnspeak{
+                text-decoration:none;
+                border-radius:30px;
+                text-align:center;
+                margin-left:35%;
+                margin-right:50%;
+            }
+            #voicelist{
+                width:130px;
+                height:25px;
+            }
+            #txtinput{
+                width:130px;
+                height:50px;
+                top:5px;
+            }
